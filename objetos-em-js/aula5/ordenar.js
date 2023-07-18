@@ -12,7 +12,7 @@ function ordenar(lista, propriedade){
         return 0
     });
 
-    return resultado;
+    return resultado.reverse;
 }
 
 const ordenadoPorNome = ordenar(clientes, "nome");
